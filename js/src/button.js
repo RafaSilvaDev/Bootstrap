@@ -4,15 +4,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
-
 import BaseComponent from './base-component.js'
 import EventHandler from './dom/event-handler.js'
 import { defineJQueryPlugin } from './util/index.js'
-
 /**
  * Constants
  */
-
 const NAME = 'button'
 const DATA_KEY = 'bs.button'
 const EVENT_KEY = `.${DATA_KEY}`
